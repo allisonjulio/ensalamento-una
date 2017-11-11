@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+  <title>Lista Ensalamento</title>
+</head>
+<body>
+<div class="subscribe-agileits-w3layouts">
+        <form action="#" method="post">
+          <div class="sub-email">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true">Consultar Sala</span>
+          </div>
+          <input type="text" name="email" class="email" placeholder="Digite seu R.A">
+          <input class="btn-default" type="button" value="CONSULTAR" onclick="DadosPessoais()">
+        </form>
+        <div id="dados-pessoais" class="dados-pessoais white" >
+          <span class="fechar"><i class="fa fa-times fa-2x" aria-hidden="true"></i></span>
+          <div class="name"> <h5>Allison Julio de Oliveira Nunes - [31522163]</h5> </div>
+          <div class="evento"> <h5>INTEGRADORA IPOLI UNA 13/11/2017 19:15</h5> </div>
+          <div class="local"> <h5>Campus João Pinheiro II / Sala JPII - T01</h5> </div>
+          <div class="disciplinas"><h5>Disciplinas</h5>
+            <ul>
+              <li><i class="fa fa-circle" aria-hidden="true"></i> Cálculo de Várias Variáveis</li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i> Física Eletricidade e Magnetismo</li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i> Formação Geral - IPOLI</li>
+          </ul>
+          </div>
+         </div> 
+      </div>
+
+      <script>
+$(document).ready(function(){
+   $( "#dados-pessoais" ).fadeOut();
+  $(".btn-default").click(function() {
+    $( "#dados-pessoais" ).fadeIn("slow");
+    
+  });
+  $( ".fechar" ).click(function() {
+
+    $("#dados-pessoais").fadeOut("fast");
+    
+  });
+  
+
+});
+</script>
+</body>
+</html>

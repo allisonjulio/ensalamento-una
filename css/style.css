@@ -1,0 +1,300 @@
+body {
+    font-family: "myriad-pro-condensed",sans-serif;
+    line-height: 1.42857143;
+    color: #d40030;
+    background: linear-gradient(114deg, transparent 0%, transparent -15%, rgb(212, 0, 48) 120%) no-repeat, linear-gradient(to top, white 0%, white 0%, transparent 0%) no-repeat, url(../imagens/students_globe.jpg)no-repeat;
+    margin: 0;
+    background-size: cover;
+    background-position: bottom;   
+}
+html {
+    height: 100%;
+}
+.text-left{
+  text-align: left;
+}
+.white{
+color: #fff;s
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.login-agile, .subscribe-agileits-w3layouts {
+    background: transparent;
+    padding: 0px;
+    text-align: center;
+}
+  .login-agile form, .subscribe-agileits-w3layouts form, .flex-bottom, .skills-btm, .toggle-btm {
+      margin-top: 3em;
+      background: #fff;
+      left: 2%;
+      width: 47%;
+      position: fixed;
+      margin: 2em auto;
+      padding: 10% 0;
+      box-shadow: 8px 9px 0px 3px rgba(56, 56, 56, 0.33);
+      z-index: 0;
+  }
+  .dados-pessoais {
+      width: 50%;
+      float: right;
+      top: 0;
+      right: 0;
+      padding: 3em 0;
+      position: absolute;
+      height: 100%;
+      background: #d40030;
+      z-index: 0;
+  }
+  .evento {
+    background: #fff;
+    color: #d40030;
+    width: 50%;
+    float: left;
+    padding: 1em 1em;
+    height: 200px;
+    border-right: .5px solid #d40030;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+  .evento:before{
+      content: 'Evento';
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      color: #5a5a5a;
+      text-transform: uppercase;
+  }  
+  .local:before{
+      content: 'Local';
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      color: #5a5a5a;
+      text-transform: uppercase;
+  }
+    .local {
+      background: #fff;
+      color: #d40030;
+      max-width: 50%;
+      float: right;
+      right: 0;
+      padding: 1em 1em;
+      height: 200px;
+      border-left: .5px solid #d40030;
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 24px;
+  }
+  .name h5 {
+      text-align: left;
+      margin: 0 0 40px 0;
+      font-size: 2em;
+      padding: 0 1em;
+  }
+  .disciplinas {
+    text-align: left;
+    padding: 0 2em;
+  }
+  .disciplinas h5 {
+      font-size: 2em;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+      margin: 0;
+      text-align: left;
+      font-weight: 900;
+  }
+  .disciplinas ul{
+      text-align: left;
+      padding: 0;
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      font-size: 16px;
+      list-style: none;
+  }
+  .disciplinas ul li {
+    padding: 14px 0;
+    font-size: 1em;
+}
+
+.email, .sub-email, .pw {
+      position: relative;
+  }
+.login-agile input[type="text"], .login-agile input[type="password"], .subscribe-agileits-w3layouts input[type="text"] {
+    width: 88%;
+    margin: 0.3em 0 1.4em 0;
+    font-size: 1.3em;
+    outline: none;
+    border-bottom: 1px solid #a5a5a5;
+    padding: 2em 0 5px 0;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+input.email {
+    padding: 12px 10px 12px 45px;
+} 
+.glyphicon-envelope{
+    color: #d40030;
+    text-transform: uppercase;
+}
+
+.email, .sub-email, .pw {
+    position: relative;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.fechar{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+.btn-default {
+    width: 50%;
+    background: #d40030;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    outline: none;
+}
+.btn-default:hover, .fechar:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 21px 33px -22px rgba(0, 0, 0, 0.39);;
+  }
+.btn-default {
+    transition: 0.5s all;
+    -webkit-transition: 0.3s all cubic-bezier(0.52, -0.01, 0, 0.96);;
+    -moz-transition: 0.3s all cubic-bezier(0.52, -0.01, 0, 0.96);;
+    -o-transition: 0.3s all cubic-bezier(0.52, -0.01, 0, 0.96);;
+    -ms-transition: 0.3s all cubic-bezier(0.52, -0.01, 0, 0.96);;
+}
+.btn-default {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+
+@media(max-width: 981px){
+  .disciplinas ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.64);
+    padding: 21px 0;
+    font-size: 1.4em;
+  }
+  .name h5 {
+      text-align: center;
+      margin: 0 0 40px 0;
+      font-size: 2.4em;
+      padding: 0 2em;
+  }
+  .disciplinas {
+    text-align: center;
+    padding: 0;
+  }
+  .disciplinas ul{
+      text-align: center;
+      padding: 0 3em;
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      font-size: 25px;
+      list-style: none;
+  }
+  .disciplinas h5 {
+      text-decoration: underline;
+      font-size: 3em;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+      margin: 50px auto;
+  }
+  .evento {
+      background: #fff;
+      color: #d40030;
+      line-height: 1em;
+      width: 50%;
+      max-width: 50%;
+      padding: 0;
+      margin: 0;
+      float: left;
+      left: 0;
+      padding: 1em 1em;
+      height: 300px;
+      border-right: .5px solid #d40030;
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 45px;
+  }
+      .local {
+      background: #fff;
+      color: #d40030;
+      line-height: 1em;
+      width: 50%;
+      max-width: 50%;
+      padding: 0;
+      margin: 0;
+      float: right;
+      right: 0;
+      padding: 1em 1em;
+      height: 300px;
+      border-left: .5px solid #d40030;
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 45px;    
+  }
+  .menu h4, .flexible h4, .skills h4, .login-agile h4, .subscribe-agileits-w3layouts h4, .circular-chart h4, .toggle-top h4, .acrdn-top h4{
+        font-size: 2em;
+  }
+  .login-agile input[type="text"], .login-agile input[type="password"], .subscribe-agileits-w3layouts input[type="text"]{
+    font-size: 40px;
+  }
+  .btn-default{
+    font-size: 30px;
+    width: 50%;
+    background: #d40030;
+    color: #fff;
+    font-weight: bold;
+}
+.login-agile form, .subscribe-agileits-w3layouts form, .flex-bottom, .skills-btm, .toggle-btm{
+    margin-top: 10%;
+    position: relative;
+    width: 80%;
+    left: auto;
+}
+.dados-pessoais {
+    width: 100%;
+    float: none;
+    top: 0;
+    right: auto;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    transition: all .4s linear;
+}
+#dados-pessoais 
+{    display: none;
+}
+.glyphicon-envelope{
+  font-size: 40px;
+}
+.fechar {
+    position: absolute;
+    top: -60px;
+    right: auto;
+    left: 0;
+    font-size: 1em;
+    cursor: pointer;
+    background: #d40030;
+    padding: 2em;
+    z-index: 3;
+}
+
+}
